@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="login-container">
-        <h1>Login</h1>
-        <form id="loginForm">
+        <h2>Login</h2>
+        <form>
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" name="username">
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="button" onclick="submitLogin()">Login</button>
-            <button type="button" onclick="call_REST_API_Hello()">Hello</button>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+            <p>Hello</p>
         </form>
-        <p id="message"></p>
     </div>
-    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,47 +1,48 @@
 body {
+    background-color: #f3e5f5; /* สีพื้นหลังอ่อนของธีมสีม่วง */
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
 }
 
 .login-container {
     width: 300px;
-    margin: 100px auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    border-radius: 8px;
 }
 
-h1 {
+h2 {
     text-align: center;
-    margin-bottom: 20px;
+    color: #6a1b9a; /* สีม่วงเข้มสำหรับหัวข้อ */
 }
 
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input {
+input[type="text"], input[type="password"] {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d1c4e9; /* เส้นขอบสีม่วงอ่อน */
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #7b1fa2; /* สีม่วงเข้ม */
+    color: white;
     border: none;
-    color: #fff;
+    border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #8e24aa; /* เปลี่ยนสีเมื่อเอาเมาส์ชี้ */
 }
 
-#message {
-    margin-top: 20px;
+p {
     text-align: center;
+    color: #6a1b9a; /* สีข้อความ */
 }
+
